@@ -4,3 +4,4 @@
   - "DOMAIN-SUFFIX,baidu.com,DIRECT"
   - "DOMAIN-SUFFIX,tencent.com,DIRECT"
   - "DOMAIN-KEYWORD,adobe,REJECT"
+  - "PROCESS-NAME,ComfyUI.exe,Proxies"
