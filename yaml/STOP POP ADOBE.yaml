@@ -3,8 +3,10 @@
 +rules:
   - "DOMAIN-SUFFIX,baidu.com,DIRECT"
   - "DOMAIN-SUFFIX,tencent.com,DIRECT"
-  - "DOMAIN-KEYWORD,behance,Proxies"      # 先匹配behance+adobe的组合
-  - "DOMAIN-KEYWORD,auth,Proxies"      # 先匹配behance+adobe的组合
-    - "DOMAIN-KEYWORD,adobelogin,Proxies"      # 先匹配behance+adobe的组合
+  - "DOMAIN-KEYWORD,behance,Proxies" 
+  - "DOMAIN-KEYWORD,auth,Proxies" 
+  - "DOMAIN-KEYWORD,adobelogin,Proxies"   
+  - "DOMAIN-KEYWORD,federatedid,Proxies"    
+  - "DOMAIN-KEYWORD,na1,Proxies"      # 先匹配behance+adobe的组合
   - "DOMAIN-KEYWORD,adobe,REJECT"          # 再拒绝其他adobe相关网址
   - "PROCESS-NAME,ComfyUI.exe,Proxies"
