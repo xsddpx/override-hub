@@ -1,3 +1,19 @@
+# +rules 放在最顶部（内核依旧优先匹配）
++rules:
+  - PROCESS-NAME,ssh.exe,DIRECT
+  - PROCESS-NAME,scp.exe,DIRECT
+  - PROCESS-NAME,sftp.exe,DIRECT
+  - PROCESS-NAME,ssh-keyscan.exe,DIRECT
+  - PROCESS-NAME,ToDesk.exe,DIRECT
+  - PROCESS-NAME,CoreToolsMgrHelper.exe,DIRECT
+  - PROCESS-NAME,BaiduNetdiskUnite.exe,DIRECT
+  - DOMAIN-SUFFIX,todesk.com,DIRECT
+  - DOMAIN-SUFFIX,todesk.cn,DIRECT
+  - DOMAIN-KEYWORD,todesk,DIRECT
+  - DOMAIN-KEYWORD,caishen,DIRECT
+  - DOMAIN-KEYWORD,xclis,DIRECT
+  - DOMAIN-KEYWORD,tapnow,DIRECT
+  - DOMAIN-KEYWORD,kydsj,DIRECT
 
 rule-providers:
   private:
@@ -200,19 +216,3 @@ rules:
   - "RULE-SET,cn_domain,DIRECT"
   - "RULE-SET,cn_ip,DIRECT"
   - "MATCH,PROXY"
-
-  +rules:
-  - PROCESS-NAME,ssh.exe,DIRECT
-  - PROCESS-NAME,scp.exe,DIRECT
-  - PROCESS-NAME,sftp.exe,DIRECT
-  - PROCESS-NAME,ssh-keyscan.exe,DIRECT
-  - PROCESS-NAME,ToDesk.exe,DIRECT
-  - PROCESS-NAME,CoreToolsMgrHelper.exe,DIRECT
-  - PROCESS-NAME,BaiduNetdiskUnite.exe,DIRECT
-  - DOMAIN-SUFFIX,todesk.com,DIRECT
-  - DOMAIN-SUFFIX,todesk.cn,DIRECT
-  - DOMAIN-KEYWORD,todesk,DIRECT
-  - DOMAIN-KEYWORD,caishen,DIRECT
-  - DOMAIN-KEYWORD,xclis,DIRECT
-  - DOMAIN-KEYWORD,tapnow,DIRECT
-  - DOMAIN-KEYWORD,kydsj,DIRECT
