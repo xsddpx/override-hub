@@ -12,6 +12,7 @@
   - DOMAIN-KEYWORD,caishen,DIRECT
   - DOMAIN-KEYWORD,xclis,DIRECT
   - DOMAIN-KEYWORD,tapnow,DIRECT
+  - DOMAIN-KEYWORD,kydsj,DIRECT
 
 rule-providers:
   private:
