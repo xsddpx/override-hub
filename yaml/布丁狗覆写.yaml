@@ -1,4 +1,3 @@
-# +rules 放在最顶部（内核依旧优先匹配）
 +rules:
   - PROCESS-NAME,ssh.exe,DIRECT
   - PROCESS-NAME,scp.exe,DIRECT
