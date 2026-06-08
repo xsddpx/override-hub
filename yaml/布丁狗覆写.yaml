@@ -201,7 +201,7 @@ rules:
   - "RULE-SET,cn_ip,DIRECT"
   - "MATCH,PROXY"
 
-  +rules:
++rules:
   - PROCESS-NAME,ssh.exe,DIRECT
   - PROCESS-NAME,scp.exe,DIRECT
   - PROCESS-NAME,sftp.exe,DIRECT
