@@ -207,7 +207,6 @@ rules:
   - "MATCH,PROXY"
 
 +rules:
-  - "DOMAIN-SUFFIX,douyin.com,DIRECT"
   - "DOMAIN-SUFFIX,amemv.com,DIRECT"
   - "DOMAIN-SUFFIX,pstatp.com,DIRECT"
   - "DOMAIN-SUFFIX,snssdk.com,DIRECT"
